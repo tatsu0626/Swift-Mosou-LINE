@@ -12,6 +12,15 @@
 		6C0266BC20160BAD000ACBBF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C0266BA20160BAD000ACBBF /* Main.storyboard */; };
 		6C0266BE20160BAD000ACBBF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6C0266BD20160BAD000ACBBF /* Assets.xcassets */; };
 		6C0266C120160BAD000ACBBF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C0266BF20160BAD000ACBBF /* LaunchScreen.storyboard */; };
+		6C0266CF201610D3000ACBBF /* child.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6C0266C8201610D2000ACBBF /* child.jpg */; };
+		6C0266D0201610D3000ACBBF /* background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6C0266C9201610D3000ACBBF /* background.jpg */; };
+		6C0266D1201610D3000ACBBF /* call.png in Resources */ = {isa = PBXBuildFile; fileRef = 6C0266CA201610D3000ACBBF /* call.png */; };
+		6C0266D2201610D3000ACBBF /* callMusic.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6C0266CB201610D3000ACBBF /* callMusic.mp3 */; };
+		6C0266D3201610D3000ACBBF /* callplay2.png in Resources */ = {isa = PBXBuildFile; fileRef = 6C0266CC201610D3000ACBBF /* callplay2.png */; };
+		6C0266D4201610D3000ACBBF /* callplay1.png in Resources */ = {isa = PBXBuildFile; fileRef = 6C0266CD201610D3000ACBBF /* callplay1.png */; };
+		6C0266D5201610D3000ACBBF /* baby.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6C0266CE201610D3000ACBBF /* baby.mp3 */; };
+		6C0266D7201617EA000ACBBF /* SoundViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C0266D6201617EA000ACBBF /* SoundViewController.swift */; };
+		6C0266DA20161C99000ACBBF /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C0266D920161C99000ACBBF /* AVFoundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +31,15 @@
 		6C0266BD20160BAD000ACBBF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6C0266C020160BAD000ACBBF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6C0266C220160BAD000ACBBF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6C0266C8201610D2000ACBBF /* child.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = child.jpg; sourceTree = "<group>"; };
+		6C0266C9201610D3000ACBBF /* background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = background.jpg; sourceTree = "<group>"; };
+		6C0266CA201610D3000ACBBF /* call.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = call.png; sourceTree = "<group>"; };
+		6C0266CB201610D3000ACBBF /* callMusic.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = callMusic.mp3; sourceTree = "<group>"; };
+		6C0266CC201610D3000ACBBF /* callplay2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = callplay2.png; sourceTree = "<group>"; };
+		6C0266CD201610D3000ACBBF /* callplay1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = callplay1.png; sourceTree = "<group>"; };
+		6C0266CE201610D3000ACBBF /* baby.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = baby.mp3; sourceTree = "<group>"; };
+		6C0266D6201617EA000ACBBF /* SoundViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundViewController.swift; sourceTree = "<group>"; };
+		6C0266D920161C99000ACBBF /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +47,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6C0266DA20161C99000ACBBF /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +59,7 @@
 			children = (
 				6C0266B520160BAD000ACBBF /* Swift Mosou LINE */,
 				6C0266B420160BAD000ACBBF /* Products */,
+				6C0266D820161C99000ACBBF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +74,30 @@
 		6C0266B520160BAD000ACBBF /* Swift Mosou LINE */ = {
 			isa = PBXGroup;
 			children = (
+				6C0266CE201610D3000ACBBF /* baby.mp3 */,
+				6C0266C9201610D3000ACBBF /* background.jpg */,
+				6C0266CA201610D3000ACBBF /* call.png */,
+				6C0266CB201610D3000ACBBF /* callMusic.mp3 */,
+				6C0266CD201610D3000ACBBF /* callplay1.png */,
+				6C0266CC201610D3000ACBBF /* callplay2.png */,
+				6C0266C8201610D2000ACBBF /* child.jpg */,
 				6C0266B620160BAD000ACBBF /* AppDelegate.swift */,
 				6C0266B820160BAD000ACBBF /* ViewController.swift */,
+				6C0266D6201617EA000ACBBF /* SoundViewController.swift */,
 				6C0266BA20160BAD000ACBBF /* Main.storyboard */,
 				6C0266BD20160BAD000ACBBF /* Assets.xcassets */,
 				6C0266BF20160BAD000ACBBF /* LaunchScreen.storyboard */,
 				6C0266C220160BAD000ACBBF /* Info.plist */,
 			);
 			path = "Swift Mosou LINE";
+			sourceTree = "<group>";
+		};
+		6C0266D820161C99000ACBBF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6C0266D920161C99000ACBBF /* AVFoundation.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -123,9 +159,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6C0266CF201610D3000ACBBF /* child.jpg in Resources */,
+				6C0266D4201610D3000ACBBF /* callplay1.png in Resources */,
+				6C0266D0201610D3000ACBBF /* background.jpg in Resources */,
 				6C0266C120160BAD000ACBBF /* LaunchScreen.storyboard in Resources */,
 				6C0266BE20160BAD000ACBBF /* Assets.xcassets in Resources */,
+				6C0266D3201610D3000ACBBF /* callplay2.png in Resources */,
+				6C0266D5201610D3000ACBBF /* baby.mp3 in Resources */,
 				6C0266BC20160BAD000ACBBF /* Main.storyboard in Resources */,
+				6C0266D2201610D3000ACBBF /* callMusic.mp3 in Resources */,
+				6C0266D1201610D3000ACBBF /* call.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,6 +180,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6C0266B920160BAD000ACBBF /* ViewController.swift in Sources */,
+				6C0266D7201617EA000ACBBF /* SoundViewController.swift in Sources */,
 				6C0266B720160BAD000ACBBF /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
